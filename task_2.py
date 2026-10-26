@@ -26,7 +26,7 @@ def get_numbers_ticket(min: int, max: int, quantity: int) -> list[int]:
 
 if __name__ == "__main__":
     lottery_numbers = get_numbers_ticket(1, 49, 6)
-    print("Ваші лотерейні числа:", lottery_numbers)
+    print("Your lottery numbers:", lottery_numbers)
     print(get_numbers_ticket(1, 36, 5))
     print(get_numbers_ticket(0, 49, 6))   # min below 1 -> []
     print(get_numbers_ticket(1, 5, 10))   # not enough numbers -> []

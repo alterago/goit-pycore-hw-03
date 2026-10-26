@@ -59,4 +59,4 @@ if __name__ == "__main__":
     ]
 
     upcoming_birthdays = get_upcoming_birthdays(users, today=date(2024, 1, 22))
-    print("Список привітань на цьому тижні:", upcoming_birthdays)
+    print("Congratulations list for this week:", upcoming_birthdays)
